@@ -15,12 +15,12 @@ The main feature of this project is:
 The project can run but is missing some information to connect to the database and storage service
 
 ## Project Link
-Frontend: http://thanhlnt-udagram.s3-website-us-east-1.amazonaws.com/
+Frontend: http://udagramweb.s3-website-us-east-1.amazonaws.com
 
-Backend: http://udagram-api-dev.us-east-1.elasticbeanstalk.com/
+Backend: http://udagram-api.us-east-1.elasticbeanstalk.com
 
 ## Project Setup
-1. Clone the project - `https://github.com/lntthanh/udagram.git`
+1. Clone the project - `https://github.com/phamvandat997/udacity_udagram_devops.git`
 2. Build & Run Frontend
    1. Go into the project directory - `cd udagram/udagram-frontend`
    2. Install the dependencies - `npm install`
@@ -44,12 +44,6 @@ export AWS_REGION=us-east-1           // AWS region
 export AWS_PROFILE=default            // AWS profile
 export JWT_SECRET=mysecretstring      // JWT secret key
 ```
-
-## Documentation
-
-- Detailed Documentation is provided in `./docs/README.md`
-- Screenshots of the AWS configurations and the CircleCI are provided in `./docs/screenshots/`
-- Architecture Diagrams of the AWS and the Pipeline are provided in `./docs/architecture/`
 
 ## Built With
 
